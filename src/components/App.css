@@ -1,0 +1,102 @@
+/* General ================================================== */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Landing Page ================================================= */
+
+.landing {
+  height: 100vh;
+}
+
+.greenlanding {
+  height: 50%;
+  width: 100%;
+  background-color: #3D4D2E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tanlanding {
+  height: 50%;
+  width: 100%;
+  background-color: #DEDACE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width:1024px) {
+  
+  .tantitle {
+    margin: 0;
+    color:#DEDACE;
+    font-size: 90px;
+  }
+  
+  .greentitle {
+    margin: 0;
+    color:#3D4D2E;
+    font-size: 90px;
+  }
+
+}
+
+@media only screen and (max-width:1024px) {
+  
+  .tantitle {
+    margin: 0;
+    color:#DEDACE;
+    font-size: 60px;
+  }
+  
+  .greentitle {
+    margin: 0;
+    color:#3D4D2E;
+    font-size: 60px;
+  }
+  
+}
+
+/* About Page ======================================== */
+
+.aboutpage {
+  height: 100vh;
+}
