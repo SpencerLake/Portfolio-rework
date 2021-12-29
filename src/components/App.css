@@ -61,6 +61,11 @@ li {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+  color: #3D4D2E;
+}
+
 
 /* Landing Page ================================================= */
 
@@ -234,3 +239,20 @@ li {
 
 /* Projects Page ======================================== */
 
+.projects-page {
+  min-height: 100vh;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.proj-pic {
+  width: 300px;
+}
+
+@media only screen and (min-width:1024px) {
+  .proj-pic {
+    width: 450px;
+  }
+}
