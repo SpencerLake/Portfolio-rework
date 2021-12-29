@@ -43,11 +43,21 @@
 }
 
 .secondary-title {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .descript-text {
   font-size: 1.1rem;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+li {
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -110,6 +120,8 @@
 
 /* About Page ======================================== */
 
+/* Pic & Bio */
+
 .aboutpage {
   min-height: 100vh;
   padding-top: 1rem;
@@ -165,3 +177,60 @@
   }
 
 }
+
+/* Skills */
+
+.skills-holder-hard {
+  width: 300px;
+  min-height: 200px;
+  background-color: #DEDACE;
+  border: solid 4px #3D4D2E;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-holder-soft {
+  width: 300px;
+  min-height: 150px;
+  background-color: #DEDACE;
+  border: solid 4px #3D4D2E;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (min-width:1024px) {
+
+  .skills-holder-hard {
+    width: 450px;
+    min-height: 200px;
+    background-color: #DEDACE;
+    border: solid 4px #3D4D2E;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .skills-holder-soft {
+    width: 300px;
+    min-height: 150px;
+    background-color: #DEDACE;
+    border: solid 4px #3D4D2E;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }  
+
+}
+
+/* Projects Page ======================================== */
+
