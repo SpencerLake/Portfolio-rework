@@ -38,6 +38,14 @@
   }
 }
 
+.page {
+  min-height: 100vh;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .section-title {
   font-size: 35px;
 }
@@ -127,14 +135,6 @@ a {
 
 /* Pic & Bio */
 
-.aboutpage {
-  min-height: 100vh;
-  padding-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .photo-holder {
   min-width: 310px;
   min-height: 310px;
@@ -188,9 +188,9 @@ a {
 .skills-holder-hard {
   width: 300px;
   min-height: 200px;
-  background-color: #DEDACE;
+  /* background-color: #DEDACE; */
   border: solid 4px #3D4D2E;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   margin-bottom: 2rem;
   display: flex;
   justify-content: space-around;
@@ -200,9 +200,9 @@ a {
 .skills-holder-soft {
   width: 300px;
   min-height: 150px;
-  background-color: #DEDACE;
+  /* background-color: #DEDACE; */
   border: solid 4px #3D4D2E;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   margin-bottom: 2rem;
   display: flex;
   justify-content: space-around;
@@ -214,9 +214,9 @@ a {
   .skills-holder-hard {
     width: 450px;
     min-height: 200px;
-    background-color: #DEDACE;
+    /* background-color: #DEDACE; */
     border: solid 4px #3D4D2E;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     margin-bottom: 2rem;
     display: flex;
     justify-content: space-around;
@@ -226,9 +226,9 @@ a {
   .skills-holder-soft {
     width: 300px;
     min-height: 150px;
-    background-color: #DEDACE;
+    /* background-color: #DEDACE; */
     border: solid 4px #3D4D2E;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     margin-bottom: 2rem;
     display: flex;
     justify-content: space-around;
@@ -239,9 +239,7 @@ a {
 
 /* Projects Page ======================================== */
 
-.projects-page {
-  min-height: 100vh;
-  padding-top: 1rem;
+.project-holder {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -249,10 +247,29 @@ a {
 
 .proj-pic {
   width: 300px;
+  border: #3D4D2E solid 4px;
+  /* border-radius: 15px; */
 }
 
 @media only screen and (min-width:1024px) {
   .proj-pic {
     width: 450px;
   }
+}
+
+/* Contact Page ========================================== */
+
+.contact-page {
+ margin-top: 2rem;
+ padding-top: .5rem;
+ padding-bottom: .5rem;
+ background-color: rgb(218, 218, 218);
+ display: flex;
+ justify-content: center;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
 }

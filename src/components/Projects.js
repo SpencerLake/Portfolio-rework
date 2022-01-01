@@ -5,12 +5,12 @@ import vainClimberTracker from "../vainClimberTracker.png"
 
 export default function Projects() {
     return (
-        <div className="projects-page">
+        <div className="page">
             <h2 className="section-title">PROJECTS</h2>
             <div className="project-holder">
                 <h2 className="secondary-title">Today's Vibe</h2>
-                <div className="proj-pic">
-                    <img src={todaysVibe} alt='Picture of project' className='proj-pic'></img>
+                <div >
+                    <img src={todaysVibe} alt='project' className='proj-pic'></img>
                 </div>
                 <div className="biography">
                     <p className="descript-text">
@@ -25,14 +25,14 @@ export default function Projects() {
             </div>
             <div className="project-holder">
                 <h2 className="secondary-title">Vain Climber Tracker</h2>
-                <div className="proj-pic">
+                <div >
                     <img src={vainClimberTracker} alt='Picture of project' className='proj-pic'></img>
                 </div>
                 <div className="biography">
-                    <p className="descript-text">
+                    <p className="descript-text"> 
                         A basic application that allows a climber to keep track of
                         climbs they have accomplished and want to remember. 
-                        <a id="demo-link" target="_blank" href="https://youtu.be/LocMD9GrSfE">Click here</a> 
+                        <a id="demo-link" target="_blank" href="https://youtu.be/LocMD9GrSfE">Click here </a> 
                         to see a <a id="demo-link" target="_blank" href="https://youtu.be/LocMD9GrSfE">demo</a>
                     </p>
                 </div>

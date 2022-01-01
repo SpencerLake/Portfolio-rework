@@ -4,7 +4,7 @@ import profilePic from '../propic.jpg'
 
 export default function About() {
     return (
-        <div className='aboutpage'>
+        <div className='page'>
             <h2 className='section-title'>ABOUT ME</h2>
             <div className='photo-holder'>
                 <img src={profilePic} alt='Profile Portrait' className='profile-picture'></img>

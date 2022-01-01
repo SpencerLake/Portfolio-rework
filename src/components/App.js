@@ -2,6 +2,7 @@ import React from 'react'
 import Landing from './Landing.js'
 import About from './About.js'
 import Projects from './Projects.js'
+import Contact from './Contact.js'
 import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Landing/>
       <About/>
       <Projects/>
+      <Contact/>
     </div>
   );
 }
