@@ -2,6 +2,8 @@ import React from "react"
 import "./App.css"
 import todaysVibe from "../todaysVibe.png"
 import vainClimberTracker from "../vainClimberTracker.png"
+import pop1 from "../population1.png"
+import pop2 from "../population2.png"
 
 export default function Projects() {
     return (
@@ -34,6 +36,19 @@ export default function Projects() {
                         climbs they have accomplished and want to remember. 
                         <a id="demo-link" target="_blank" href="https://youtu.be/LocMD9GrSfE">Click here </a> 
                         to see a <a id="demo-link" target="_blank" href="https://youtu.be/LocMD9GrSfE">demo</a>
+                    </p>
+                </div>
+            </div>
+            <div className="project-holder">
+                <h2 className="secondary-title">Population Info Retriever</h2>
+                <div >
+                    <img src={pop1} alt='Picture of project' className='proj-pic'></img>
+                </div>
+                <div className="biography">
+                    <p className="descript-text"> 
+                        A basic application that retrieves information from external API 
+                        to allow user to see populations each year and each state's population 
+                        that year. 
                     </p>
                 </div>
             </div>
