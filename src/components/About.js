@@ -13,7 +13,7 @@ export default function About() {
                 <p className='descript-text'>For the duration on my working career I've been a 
                     Jack-Of-All-Trades, ranging from salesman to caregiver to laborer.
                      Recently I stumbled upon the world of coding and instantly
-                      fell in love! I am a Web Developer and graduated from
+                      fell in love! I am a Software Engineer and graduated from
                        DevMountain.</p>
             </div>
             <h2 className='secondary-title'>HARD SKILLS</h2>
