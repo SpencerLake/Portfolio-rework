@@ -25,6 +25,8 @@ export default function About() {
                     <li>React</li>
                     <li>NodeJs</li>
                     <li>Express</li>
+                    <li>Ajax</li>
+                    <li>Bootstrap</li>
                 </ul>
                 <ul className='skill-list-hard'>
                     <li>Axios</li>
@@ -33,14 +35,22 @@ export default function About() {
                     <li>Github</li>
                     <li>Firebase</li>
                     <li>Horoku</li>
+                    <li>jQuery</li>
+                    <li>Postman</li>
                 </ul>
             </div>
             <h2 className='secondary-title'>SOFT SKILLS</h2>
             <div className='skills-holder-soft'>
                 <ul className='skill-list-soft'>
                     <li>Communication</li>
+                    <li>Problem Solving</li>
+                    <li>Time Managment</li>
+                    <li>Adaptable</li>
+                </ul>
+                <ul className='skill-list-soft'>
+                    <li></li>
                     <li>Teamwork</li>
-                    <li>Self-Driven</li>
+                    <li>Self Driven</li>
                     <li>Wlling to learn</li>
                 </ul>
             </div>
